@@ -1,0 +1,89 @@
+.available {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 525px;
+}
+
+.CartNav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Back-Home-Button {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    display: inline;
+}
+
+.Checkout-button {
+    background-color: #1E90FF;
+    border: none;
+    display: inline;
+}
+
+.Nav-link {
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.Back-Home-Button :hover {
+    color: red;
+}
+
+.Checkout-button :hover {
+    color: red;
+}
+
+.Cart-Card {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    max-height: 200px;
+    align-items: center;
+}
+
+.Img-cart-card {
+    width: 10%;
+    height: 100px;
+}
+
+.Quantity-Section {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 40px;
+}
+
+.Minus {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    min-height: 20px;
+    margin-right: "10px";
+}
+
+.Plus {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    min-height: 20px;
+}
+
+.Remove-Cart {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    min-height: 20px;
+    max-height: 30px;
+}

@@ -1,0 +1,54 @@
+.Checkout {
+    background-color: #87CEFA;
+    width: 100%;
+    min-height: 60px;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.checkout-Nav-Section {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    display: inline;
+    height: 40px;
+}
+
+.Payment-button {
+    background-color: #1E90FF;
+    border: none;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+}
+
+.checkoutProductavailable {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+    height: 600px;
+}
+
+.CheckoutCardProducts {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    max-height: 200px;
+    align-items: center;
+}
+
+.checkout-Bar-section {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+}
